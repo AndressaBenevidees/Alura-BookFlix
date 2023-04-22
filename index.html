@@ -1,0 +1,83 @@
+<html>
+
+<head>
+  <title>
+    BookFlix
+  </title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+  <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+</head>
+  
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      BookFlix
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    <p class="page-subtitle">
+      Crie uma lista de livros que deseja comprar
+    </p>
+    <div class="start">
+      <button id="start" onclick="criarLista()">Criar lista</button>
+    </div>
+    <div class="form-wrapper">
+      <input type="text" id="livro" name="livro" placeholder="Insira endereço de imagem">
+      <input type="text" id="link" name="link" placeholder="Insira endereço de compra">
+      <button id="btn" onclick="adicionarLivro()">Adicionar Livro</button>
+    </div>
+  </div>
+  <div id="listaLivros" class="holder">
+    <p id="novaCategoria" class="new-category"></p>
+  </div>
+  <div class="books">
+    <p class="categories">Livros para Programadores</p>
+    <a href="https://www.casadocodigo.com.br/products/livro-programador-apaixonado" target="_blank">
+    <img height='300px' src="https://cdn.shopify.com/s/files/1/0155/7645/products/OProgramadorApaixonado_ebook_large.jpg" alt="" class="capas">
+
+    <a href="https://www.casadocodigo.com.br/products/livro-universo-programacao" target="_blank">
+    <img height='300px' src="https://cdn.shopify.com/s/files/1/0155/7645/products/Ouniversodaprogramacao_ebook_large.jpg" alt="" class="capas">
+
+      <a href="https://www.casadocodigo.com.br/products/livro-logica-jogo" target="_blank">
+      <img height='300px' src="https://cdn.shopify.com/s/files/1/0155/7645/products/Alogicadojogo_Amazon_large.jpg" alt="" class="capas">
+
+      <a href="https://www.casadocodigo.com.br/products/livro-programacao" target="_blank">
+      <img height='300px' src="https://cdn.shopify.com/s/files/1/0155/7645/products/LogicadeProgramacao_ebook_large.jpg" alt="" class="capas">
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+<div>
+    <p class="categories">Saga Harry Potter</p>
+      <a href="https://www.amazon.com.br/Harry-Potter-Pedra-Filosofal-Rowling/dp/8532511015" target="_blank">
+      <img height='300px' src="https://m.media-amazon.com/images/I/61jgm6ooXzL.jpg" alt="" class="capas">
+
+      <a href="https://www.amazon.com.br/Harry-Potter-C%C3%A2mara-Secreta-Rowling/dp/853251166X" target="_blank">
+      <img height='300px' src="https://m.media-amazon.com/images/I/71NsVQ5MlwL.jpg" alt="" class="capas">
+
+      <a href="https://www.amazon.com.br/Harry-Potter-Prisioneiro-Azkaban-Rowling/dp/8532512062" target="_blank">
+      <img height='300px' src="https://m.media-amazon.com/images/I/81QnqHwRiUL.jpg" alt="" class="capas">
+
+      <a href="https://www.amazon.com.br/Harry-Potter-C%C3%A1lice-Fogo-J-k-Rowling/dp/8532512526" target="_blank">
+      <img height='300px' src="https://m.media-amazon.com/images/I/8172dLr8Z7L.jpg" alt="" class="capas">
+
+      <a href="https://www.amazon.com.br/Harry-Potter-Ordem-F%C3%AAnix-Rowling/dp/853251622X" target="_blank">
+      <img height='300px' src="https://m.media-amazon.com/images/I/81RI+iGwPGL.jpg" alt="" class="capas">
+
+      <a href="https://www.amazon.com.br/Harry-Potter-Enigma-Do-Pr%C3%ADncipe/dp/8532519474" target="_blank">
+      <img height='300px' src="https://m.media-amazon.com/images/I/81-jvnt+hgL.jpg" alt="" class="capas">
+
+      <a href="https://www.amazon.com.br/Harry-Potter-As-Rel%C3%ADquias-Morte/dp/8532522610" target="_blank">
+      <img height='300px' src="https://m.media-amazon.com/images/I/81PHloIwKnL.jpg" alt="" class="capas">
+
+      <a href="https://www.amazon.com.br/Harry-Potter-Crian%C3%A7a-Amaldi%C3%A7oada-Parte/dp/8532530435" target="_blank">
+      <img height='300px' src="https://m.media-amazon.com/images/I/A1KCc5VBFYL.jpg" alt="" class="capas">
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+  <script src="./src/js/index.js"></script>
+</body>
+</html>
